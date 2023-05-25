@@ -1,0 +1,25 @@
+.sidebar {
+	display: flex;
+	height: calc(100% - 40px);
+	width: 100%;
+	margin: 20px 0;
+	color: #ffffff;
+	font-size: 16px;
+}
+
+.sidebar .sidebar-content {
+	background-color: #f4f4f4;
+}
+
+.sidebar .sidebar-content div {
+	padding: 20px;
+}
+
+.content {
+	position: relative;
+	margin-left: 5px;
+	background-color: #3a5da3;
+	width: 100%;
+	border-radius: 8px;
+	text-align: end;
+}
